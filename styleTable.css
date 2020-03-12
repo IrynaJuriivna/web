@@ -1,0 +1,25 @@
+.cell {
+
+    }
+ .cell :hover {
+          background-color: #8b5fc4;
+        }
+ .cell :active {
+          background-color: #f7f331b9;
+        }
+
+.cell2 {
+
+    }
+ .cell2 :hover {
+   transition: 2s;
+          background-color: #7250a8;
+           
+        }
+ .cell2  :active {
+          
+           transition-property:background-color;
+           background-color: #eb1b4fb9;
+          transition-duration: 2s;
+          
+        }

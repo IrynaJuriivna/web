@@ -1,0 +1,85 @@
+.carousel-item {
+  height: 15em;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+header h1{
+padding-bottom: 20px;
+    padding-top: 20px;
+    background: rgb(127, 238, 232);
+    height: max-content;
+    margin-bottom: 0px;
+            text-align:center;
+}
+ nav {
+   text-align: center;
+	background-color: #222;
+	border-color: #101010;
+
+}
+ nav li {
+    display: inline-block;
+    margin:2%
+}
+ul{
+  padding-inline-start:initial;
+}
+ nav a {
+	color: #9d9d9d;
+	font-weight: bold;
+  font-size: 18px; 
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.slider{
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:-0.7em;
+}
+
+
+footer {
+ 
+ height:40px;
+  width: 100%;
+ text-align:center;
+background: rgb(127, 238, 232);
+
+}
+h2{
+margin-top: 10px;
+}
+ img{
+       float: left;
+       margin-top:15px;
+    margin-right: 10px;
+  
+}
+
+.main_cont{
+  min-height: calc(94.5vh);
+}
+collapse{
+  padding-bottom:2em;
+}
+
+@media(max-width:768px){
+  img{
+    float:none;
+    margin:10px auto;
+    width:auto;
+    max-width:100%;
+  }
+}
